@@ -3,8 +3,6 @@ package com.gojava.Filesystem;
 /**
  * Created by Kell on 27.01.2016.
  */
-class Directory {
+class File {
 
-    public Directory() {
-    }
 }

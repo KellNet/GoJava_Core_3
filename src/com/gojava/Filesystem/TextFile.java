@@ -1,5 +1,6 @@
-package com.gojava.Filesystem.Files;
+package com.gojava.Filesystem;
 
+import com.gojava.Filesystem.File;
 import com.gojava.Filesystem.Files.File;
 
 /**
