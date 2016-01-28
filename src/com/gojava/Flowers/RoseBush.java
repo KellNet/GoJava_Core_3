@@ -5,9 +5,9 @@ package com.gojava.Flowers;
  */
 class RoseBush {
     private int numberOfFlower;
-    private Rose rose;
+    private Rose[] rose;
 
-    public RoseBush(final int numberOfFlower, final Rose rose) {
+    public RoseBush(int numberOfFlower, Rose[] rose) {
         this.numberOfFlower = numberOfFlower;
         this.rose = rose;
     }
@@ -16,7 +16,7 @@ class RoseBush {
         return numberOfFlower;
     }
 
-    public Rose getRose() {
+    public Rose[] getRose() {
         return rose;
     }
 }
